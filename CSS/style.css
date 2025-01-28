@@ -1,0 +1,23 @@
+:root {
+    /* Font families */
+    --font-primary: 'Montserrat', sans-serif;
+    --font-secondary: 'Playfair Display', serif;
+    --font-color: #D3D9D4; 
+  
+    /* Color scheme */
+    --color-primary: #2E3944; 
+    --color-secondary: #124E66; 
+    --color-background: #212A31; 
+    --color-icon: #748D92; 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-primary);
+    width: 100%;
+}
