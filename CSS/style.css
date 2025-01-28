@@ -21,3 +21,52 @@ body {
     background-color: var(--color-primary);
     width: 100%;
 }
+
+/* Header Section */
+#main-header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.nav-title {
+    font-family: var(--font-secondary);
+    font-size: 35px;
+    letter-spacing: 9px;
+    margin-left: 20px;
+    color: var(--font-color);
+}
+
+.nav-btn {
+    vertical-align: center;
+    width: 111px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    padding: 6px 0px 6px 0px;
+    background-color: var(--color-icon);
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+
+.nav-btn:hover {
+    background-color: var(--font-color);
+}
+
+.nav-btn:first-child,
+.nav-btn:nth-child(2) {
+    width: 80px;
+}
+
+.nav-btn > svg {
+    stroke: var(--font-color);
+    transition: stroke .4s ease-in-out;
+    width: 25px;
+    height: 25px;
+}
+
+.nav-btn:hover  > svg{
+    stroke: var(--color-icon);
+}
